@@ -21,12 +21,12 @@ Note: The y values might be complex, so we will plot them using `plot(x, abs(y))
 
 
 
-So basically, our process is:
-i. read the signal, i.e., the music, from the file
-ii. produce the filter coefficients, h[n]
-iii. plot the frequency response of h[n]
-iv. produce the Hamming window coefficients, w[n]
-v. apply the window to the filter coefficients to produce ĥ[n]
-vi. plot the frequency response of ĥ[n]
-vii. convolve the signal with the new filter coefficients, ĥ[n]
-viii. save the output as cleanMusic.wav
+So basically, our process is:  
+i. read the signal, i.e., the music, from the file  
+ii. produce the filter coefficients, h[n]  
+iii. plot the frequency response of h[n]  
+iv. produce the Hamming window coefficients, w[n]  
+v. apply the window to the filter coefficients to produce ĥ[n]  
+vi. plot the frequency response of ĥ[n]  
+vii. convolve the signal with the new filter coefficients, ĥ[n]  
+viii. save the output as cleanMusic.wav  
