@@ -17,4 +17,4 @@ the filter.
 * Instead of using rectangular window, we will apply a Hamming window
 * After producing the L Hamming window values, apply them to the filter coefficients by performing an element-wise multiplication between h[n] and w[n].
 * We also want to look at the frequency response of our filter before and after applying the window. To do this, we use `x, y = freqz(filter_coefficients, 1)` after importing the library using `from scipy.signal import freqz`.
-Note: The y values might be complex, so we will plot them using `plot(x, abs(y))`. We put both the frequency response plots on the ![same figure window.](https://github.com/ShameenShetty/CSE-3313--HW05/blob/master/Frequency%20Response.png)
+Note: The y values might be complex, so we will plot them using `plot(x, abs(y))`. We put both the frequency response plots on the same figure window. ![For Example](https://github.com/ShameenShetty/CSE-3313--HW05/blob/master/Frequency%20Response.png)
