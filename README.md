@@ -10,4 +10,5 @@ the filter.
 
 ### Process
 * Read from *P_9_2.wav*, which is a wav file containing a piece of music that has been corrupted with noise.
-* We will remove this noise using the lowpass filter from [HW04](https://github.com/ShameenShetty/CSE-3313--HW04/)
+* We will remove this noise using the lowpass filter from [HW04](https://github.com/ShameenShetty/CSE-3313--HW04/) with the following specifications:  
+  - A cut-off freq of f<sub>c</sub>= 7500 Hz
